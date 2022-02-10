@@ -7,9 +7,9 @@ hellocentralnj.example:
     _permission: 'access content'
 
 hellocentralnj.thanks:
-  path: '/hellocentralnj/thanks'
+  path: '/thanks'
   defaults:
-    _title: 'a special page to thank Leora Wenger for inviting me and always cheering me on!'
+    _title: 'A special page to thank Leora Wenger for inviting me and always cheering me on!'
     _controller: '\Drupal\hellocentralnj\Controller\HellocentralnjController::build'
   requirements:
     _permission: 'access content'
