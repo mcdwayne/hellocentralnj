@@ -1,0 +1,7 @@
+name: HelloCentralNJ
+type: module
+description: A demo module to say howdy to the good people at the Web Developers Central NJ Meetup
+package: Custom
+core_version_requirement: ^9 || ^10
+dependencies:
+  - text

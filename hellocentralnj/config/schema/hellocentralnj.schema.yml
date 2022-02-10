@@ -1,0 +1,11 @@
+# Schema for the configuration files of the HelloCentralNJ module.
+hellocentralnj.settings:
+  type: config_object
+  label: 'HelloCentralNJ settings'
+  mapping:
+    example:
+      type: string
+      label: 'Example'
+    thanks:
+      type: string
+      label: 'Thanks'

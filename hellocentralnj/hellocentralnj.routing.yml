@@ -1,0 +1,24 @@
+hellocentralnj.example:
+  path: '/hellocentralnj/example'
+  defaults:
+    _title: 'A demo module to say howdy to the good people at the Web Developers Central NJ Meetup'
+    _controller: '\Drupal\hellocentralnj\Controller\HellocentralnjController::build'
+  requirements:
+    _permission: 'access content'
+
+hellocentralnj.thanks:
+  path: '/hellocentralnj/thanks'
+  defaults:
+    _title: 'a special page to thank Leora Wenger for inviting me and always cheering me on!'
+    _controller: '\Drupal\hellocentralnj\Controller\HellocentralnjController::build'
+  requirements:
+    _permission: 'access content'
+
+
+hellocentralnj.settings_form:
+  path: '/admin/config/system/hellocentralnj'
+  defaults:
+    _title: 'HelloCentralNJ settings'
+    _form: 'Drupal\hellocentralnj\Form\SettingsForm'
+  requirements:
+    _permission: 'administer hellocentralnj configuration'
