@@ -1,0 +1,4 @@
+administer hellocentralnj configuration:
+  title: 'Administer hellocentralnj configuration'
+  description: 'Optional description.'
+  restrict access: true
